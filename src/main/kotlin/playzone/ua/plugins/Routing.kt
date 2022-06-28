@@ -21,12 +21,6 @@ val links = listOf(
 fun Application.configureRouting() {
 
     routing {
-        get("/test") {
-            call.respondText("Hello, World")
-        }
-    }
-
-    routing {
         get("/") {
             call.respondText("Ok")
         }
