@@ -1,1 +1,1 @@
-web:./build/install/ua.playzone.playzone-backend/bin/ua.playzone.playzone-backend
+web: ./build/install/playzone.ua.playzone-backend/bin/playzone.ua.playzone-backend
