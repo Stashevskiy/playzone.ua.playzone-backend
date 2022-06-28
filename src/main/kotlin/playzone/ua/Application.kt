@@ -25,5 +25,6 @@ fun main() {
         configureRegisterRouting()
         configureGamesRouting()
         configureSerialization()
+
     }.start(wait = true)
 }
