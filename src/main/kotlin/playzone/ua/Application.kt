@@ -12,9 +12,9 @@ import playzone.ua.plugins.*
 
 fun main() {
 
-    val config = HikariConfig("hikari.properties")
+    /*val config = HikariConfig("hikari.properties")
     val dataSource = HikariDataSource(config)
-    Database.connect(dataSource)
+    Database.connect(dataSource)*/
 
     /*Database.connect("jdbc:postgresql://localhost:5432/playzone", driver = "org.postgresql.Driver",
         user = "postgres",password = "1234")*/
