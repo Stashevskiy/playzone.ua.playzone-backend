@@ -1,14 +1,13 @@
 package playzone.ua
 
-import com.zaxxer.hikari.HikariConfig
-import com.zaxxer.hikari.HikariDataSource
 import io.ktor.server.engine.*
 import io.ktor.server.netty.*
 import org.jetbrains.exposed.sql.Database
 import playzone.ua.features.games.configureGamesRouting
 import playzone.ua.features.login.configureLoginRouting
 import playzone.ua.features.registration.configureRegisterRouting
-import playzone.ua.plugins.*
+import playzone.ua.plugins.configureRouting
+import playzone.ua.plugins.configureSerialization
 
 fun main() {
 
