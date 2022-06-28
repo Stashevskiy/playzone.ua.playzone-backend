@@ -13,4 +13,10 @@ fun Application.configureRouting() {
         }
     }
 
+    routing {
+        get("/") {
+            call.respondText("Ok")
+        }
+    }
+
 }
