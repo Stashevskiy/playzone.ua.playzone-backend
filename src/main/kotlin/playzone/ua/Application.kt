@@ -16,8 +16,9 @@ fun main() {
     val dataSource = HikariDataSource(config)
     Database.connect(dataSource)*/
 
-    /*Database.connect("jdbc:postgresql://localhost:5432/playzone", driver = "org.postgresql.Driver",
-        user = "postgres",password = "1234")*/
+    Database.connect("jdbc:postgres://ffjgddoexxosrx:c5f2b12e811ed461f26e73dba3f17a8279345e41d5b1c1c950fe5388d42f6523@ec2-52-30-159-47.eu-west-1.compute.amazonaws.com:5432/d254ibomundrui",
+        driver = "org.postgresql.Driver",
+        user = "ffjgddoexxosrx",password = "c5f2b12e811ed461f26e73dba3f17a8279345e41d5b1c1c950fe5388d42f6523")
 
     embeddedServer(Netty, port = System.getenv("PORT").toInt()) {
         configureRouting()
